@@ -1,0 +1,8 @@
+/* 
+  Localizable.strings
+  Lokalise-iOS-MFE
+
+  Created by Chia Wei Zheng Terry on 11/10/23.
+  
+*/
+"ota_key" = "Value is from MFE local xcframeworks";

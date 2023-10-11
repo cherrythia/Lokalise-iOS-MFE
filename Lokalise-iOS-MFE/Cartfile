@@ -1,0 +1,2 @@
+github "layoutBox/FlexLayout"
+github "layoutBox/PinLayout" == 1.10.0

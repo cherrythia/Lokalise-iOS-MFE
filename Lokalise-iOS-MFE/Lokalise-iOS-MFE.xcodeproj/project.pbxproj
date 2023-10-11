@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C23BB702AD6444B00E16A65 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C23BB722AD6444B00E16A65 /* Localizable.strings */; };
+		3C8CBA192AD54E4C002B4E2E /* Lokalise_iOS_MFE.docc in Sources */ = {isa = PBXBuildFile; fileRef = 3C8CBA182AD54E4C002B4E2E /* Lokalise_iOS_MFE.docc */; };
+		3C8CBA1F2AD54E4C002B4E2E /* Lokalise_iOS_MFE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C8CBA142AD54E4C002B4E2E /* Lokalise_iOS_MFE.framework */; };
+		3C8CBA242AD54E4C002B4E2E /* Lokalise_iOS_MFETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8CBA232AD54E4C002B4E2E /* Lokalise_iOS_MFETests.swift */; };
+		3C8CBA252AD54E4C002B4E2E /* Lokalise_iOS_MFE.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C8CBA172AD54E4C002B4E2E /* Lokalise_iOS_MFE.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C8CBA2F2AD54E89002B4E2E /* MFEViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8CBA2E2AD54E89002B4E2E /* MFEViewController.swift */; };
+		3C8CBA632AD57154002B4E2E /* FlexLayout.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C8CBA3D2AD55B36002B4E2E /* FlexLayout.xcframework */; };
+		3C8CBA662AD57155002B4E2E /* PinLayout.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C8CBA3C2AD55B36002B4E2E /* PinLayout.xcframework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C8CBA202AD54E4C002B4E2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C8CBA0B2AD54E4C002B4E2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C8CBA132AD54E4C002B4E2E;
+			remoteInfo = "Lokalise-iOS-MFE";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C23BB712AD6444B00E16A65 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3C8CBA142AD54E4C002B4E2E /* Lokalise_iOS_MFE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Lokalise_iOS_MFE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C8CBA172AD54E4C002B4E2E /* Lokalise_iOS_MFE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lokalise_iOS_MFE.h; sourceTree = "<group>"; };
+		3C8CBA182AD54E4C002B4E2E /* Lokalise_iOS_MFE.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Lokalise_iOS_MFE.docc; sourceTree = "<group>"; };
+		3C8CBA1E2AD54E4C002B4E2E /* Lokalise-iOS-MFETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lokalise-iOS-MFETests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C8CBA232AD54E4C002B4E2E /* Lokalise_iOS_MFETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lokalise_iOS_MFETests.swift; sourceTree = "<group>"; };
+		3C8CBA2E2AD54E89002B4E2E /* MFEViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MFEViewController.swift; sourceTree = "<group>"; };
+		3C8CBA3C2AD55B36002B4E2E /* PinLayout.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = PinLayout.xcframework; path = Carthage/Build/PinLayout.xcframework; sourceTree = "<group>"; };
+		3C8CBA3D2AD55B36002B4E2E /* FlexLayout.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FlexLayout.xcframework; path = Carthage/Build/FlexLayout.xcframework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C8CBA112AD54E4C002B4E2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C8CBA632AD57154002B4E2E /* FlexLayout.xcframework in Frameworks */,
+				3C8CBA662AD57155002B4E2E /* PinLayout.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C8CBA1B2AD54E4C002B4E2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C8CBA1F2AD54E4C002B4E2E /* Lokalise_iOS_MFE.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C8CBA0A2AD54E4C002B4E2E = {
+			isa = PBXGroup;
+			children = (
+				3C23BB722AD6444B00E16A65 /* Localizable.strings */,
+				3C8CBA162AD54E4C002B4E2E /* Lokalise-iOS-MFE */,
+				3C8CBA222AD54E4C002B4E2E /* Lokalise-iOS-MFETests */,
+				3C8CBA152AD54E4C002B4E2E /* Products */,
+				3C8CBA3B2AD55B36002B4E2E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3C8CBA152AD54E4C002B4E2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C8CBA142AD54E4C002B4E2E /* Lokalise_iOS_MFE.framework */,
+				3C8CBA1E2AD54E4C002B4E2E /* Lokalise-iOS-MFETests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C8CBA162AD54E4C002B4E2E /* Lokalise-iOS-MFE */ = {
+			isa = PBXGroup;
+			children = (
+				3C8CBA172AD54E4C002B4E2E /* Lokalise_iOS_MFE.h */,
+				3C8CBA182AD54E4C002B4E2E /* Lokalise_iOS_MFE.docc */,
+				3C8CBA2E2AD54E89002B4E2E /* MFEViewController.swift */,
+			);
+			path = "Lokalise-iOS-MFE";
+			sourceTree = "<group>";
+		};
+		3C8CBA222AD54E4C002B4E2E /* Lokalise-iOS-MFETests */ = {
+			isa = PBXGroup;
+			children = (
+				3C8CBA232AD54E4C002B4E2E /* Lokalise_iOS_MFETests.swift */,
+			);
+			path = "Lokalise-iOS-MFETests";
+			sourceTree = "<group>";
+		};
+		3C8CBA3B2AD55B36002B4E2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C8CBA3D2AD55B36002B4E2E /* FlexLayout.xcframework */,
+				3C8CBA3C2AD55B36002B4E2E /* PinLayout.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3C8CBA0F2AD54E4C002B4E2E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C8CBA252AD54E4C002B4E2E /* Lokalise_iOS_MFE.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3C8CBA132AD54E4C002B4E2E /* Lokalise-iOS-MFE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C8CBA282AD54E4C002B4E2E /* Build configuration list for PBXNativeTarget "Lokalise-iOS-MFE" */;
+			buildPhases = (
+				3C8CBA0F2AD54E4C002B4E2E /* Headers */,
+				3C8CBA102AD54E4C002B4E2E /* Sources */,
+				3C8CBA112AD54E4C002B4E2E /* Frameworks */,
+				3C8CBA122AD54E4C002B4E2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lokalise-iOS-MFE";
+			packageProductDependencies = (
+			);
+			productName = "Lokalise-iOS-MFE";
+			productReference = 3C8CBA142AD54E4C002B4E2E /* Lokalise_iOS_MFE.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3C8CBA1D2AD54E4C002B4E2E /* Lokalise-iOS-MFETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C8CBA2B2AD54E4C002B4E2E /* Build configuration list for PBXNativeTarget "Lokalise-iOS-MFETests" */;
+			buildPhases = (
+				3C8CBA1A2AD54E4C002B4E2E /* Sources */,
+				3C8CBA1B2AD54E4C002B4E2E /* Frameworks */,
+				3C8CBA1C2AD54E4C002B4E2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C8CBA212AD54E4C002B4E2E /* PBXTargetDependency */,
+			);
+			name = "Lokalise-iOS-MFETests";
+			productName = "Lokalise-iOS-MFETests";
+			productReference = 3C8CBA1E2AD54E4C002B4E2E /* Lokalise-iOS-MFETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C8CBA0B2AD54E4C002B4E2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					3C8CBA132AD54E4C002B4E2E = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					3C8CBA1D2AD54E4C002B4E2E = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 3C8CBA0E2AD54E4C002B4E2E /* Build configuration list for PBXProject "Lokalise-iOS-MFE" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3C8CBA0A2AD54E4C002B4E2E;
+			packageReferences = (
+			);
+			productRefGroup = 3C8CBA152AD54E4C002B4E2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C8CBA132AD54E4C002B4E2E /* Lokalise-iOS-MFE */,
+				3C8CBA1D2AD54E4C002B4E2E /* Lokalise-iOS-MFETests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C8CBA122AD54E4C002B4E2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C23BB702AD6444B00E16A65 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C8CBA1C2AD54E4C002B4E2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C8CBA102AD54E4C002B4E2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C8CBA192AD54E4C002B4E2E /* Lokalise_iOS_MFE.docc in Sources */,
+				3C8CBA2F2AD54E89002B4E2E /* MFEViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C8CBA1A2AD54E4C002B4E2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C8CBA242AD54E4C002B4E2E /* Lokalise_iOS_MFETests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C8CBA212AD54E4C002B4E2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C8CBA132AD54E4C002B4E2E /* Lokalise-iOS-MFE */;
+			targetProxy = 3C8CBA202AD54E4C002B4E2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C23BB722AD6444B00E16A65 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C23BB712AD6444B00E16A65 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C8CBA262AD54E4C002B4E2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3C8CBA272AD54E4C002B4E2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3C8CBA292AD54E4C002B4E2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = NO;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Lokalise-iOS-MFE";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C8CBA2A2AD54E4C002B4E2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = NO;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Lokalise-iOS-MFE";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3C8CBA2C2AD54E4C002B4E2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Lokalise-iOS-MFETests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C8CBA2D2AD54E4C002B4E2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Lokalise-iOS-MFETests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C8CBA0E2AD54E4C002B4E2E /* Build configuration list for PBXProject "Lokalise-iOS-MFE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C8CBA262AD54E4C002B4E2E /* Debug */,
+				3C8CBA272AD54E4C002B4E2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C8CBA282AD54E4C002B4E2E /* Build configuration list for PBXNativeTarget "Lokalise-iOS-MFE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C8CBA292AD54E4C002B4E2E /* Debug */,
+				3C8CBA2A2AD54E4C002B4E2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C8CBA2B2AD54E4C002B4E2E /* Build configuration list for PBXNativeTarget "Lokalise-iOS-MFETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C8CBA2C2AD54E4C002B4E2E /* Debug */,
+				3C8CBA2D2AD54E4C002B4E2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C8CBA0B2AD54E4C002B4E2E /* Project object */;
+}
