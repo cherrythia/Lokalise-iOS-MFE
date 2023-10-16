@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		3C23BB772AD6E7EC00E16A65 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C23BB722AD6444B00E16A65 /* Localizable.strings */; };
 		3C23BB792ADCDD1600E16A65 /* LocalizableStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C23BB782ADCDD1600E16A65 /* LocalizableStrings.swift */; };
+		3C23BB7B2ADCEABA00E16A65 /* Lokalise.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C23BB7A2ADCEABA00E16A65 /* Lokalise.xcframework */; };
+		3C23BB7F2ADCEC4800E16A65 /* OTALokalise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C23BB7E2ADCEC4800E16A65 /* OTALokalise.swift */; };
 		3C8CBA1F2AD54E4C002B4E2E /* Lokalise_iOS_MFE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C8CBA142AD54E4C002B4E2E /* Lokalise_iOS_MFE.framework */; };
 		3C8CBA242AD54E4C002B4E2E /* Lokalise_iOS_MFETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8CBA232AD54E4C002B4E2E /* Lokalise_iOS_MFETests.swift */; };
 		3C8CBA2F2AD54E89002B4E2E /* MFEViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8CBA2E2AD54E89002B4E2E /* MFEViewController.swift */; };
@@ -29,6 +31,8 @@
 /* Begin PBXFileReference section */
 		3C23BB712AD6444B00E16A65 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		3C23BB782ADCDD1600E16A65 /* LocalizableStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizableStrings.swift; sourceTree = "<group>"; };
+		3C23BB7A2ADCEABA00E16A65 /* Lokalise.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Lokalise.xcframework; path = Carthage/Checkouts/Lokalise.xcframework; sourceTree = "<group>"; };
+		3C23BB7E2ADCEC4800E16A65 /* OTALokalise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTALokalise.swift; sourceTree = "<group>"; };
 		3C8CBA142AD54E4C002B4E2E /* Lokalise_iOS_MFE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Lokalise_iOS_MFE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C8CBA1E2AD54E4C002B4E2E /* Lokalise-iOS-MFETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lokalise-iOS-MFETests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C8CBA232AD54E4C002B4E2E /* Lokalise_iOS_MFETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lokalise_iOS_MFETests.swift; sourceTree = "<group>"; };
@@ -42,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C23BB7B2ADCEABA00E16A65 /* Lokalise.xcframework in Frameworks */,
 				3C8CBA632AD57154002B4E2E /* FlexLayout.xcframework in Frameworks */,
 				3C8CBA662AD57155002B4E2E /* PinLayout.xcframework in Frameworks */,
 			);
@@ -83,6 +88,7 @@
 				3C23BB722AD6444B00E16A65 /* Localizable.strings */,
 				3C8CBA2E2AD54E89002B4E2E /* MFEViewController.swift */,
 				3C23BB782ADCDD1600E16A65 /* LocalizableStrings.swift */,
+				3C23BB7E2ADCEC4800E16A65 /* OTALokalise.swift */,
 			);
 			path = "Lokalise-iOS-MFE";
 			sourceTree = "<group>";
@@ -98,6 +104,7 @@
 		3C8CBA3B2AD55B36002B4E2E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3C23BB7A2ADCEABA00E16A65 /* Lokalise.xcframework */,
 				3C8CBA3D2AD55B36002B4E2E /* FlexLayout.xcframework */,
 				3C8CBA3C2AD55B36002B4E2E /* PinLayout.xcframework */,
 			);
@@ -217,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C8CBA2F2AD54E89002B4E2E /* MFEViewController.swift in Sources */,
+				3C23BB7F2ADCEC4800E16A65 /* OTALokalise.swift in Sources */,
 				3C23BB792ADCDD1600E16A65 /* LocalizableStrings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

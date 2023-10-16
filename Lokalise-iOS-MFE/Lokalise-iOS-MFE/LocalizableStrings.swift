@@ -18,10 +18,3 @@ enum LocalizableStrings: String {
         return NSLocalizedString(self.rawValue, bundle: bundle, comment: "")
     }
 }
-
-
-//extension String {
-//    public func localizedString(bundle: Bundle = Bundle.main) -> String {
-//        
-//    }
-//}

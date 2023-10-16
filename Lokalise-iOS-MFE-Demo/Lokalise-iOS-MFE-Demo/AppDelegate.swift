@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Lokalise_iOS_MFE
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,6 +15,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let ota = OTA()
+        ota.StartOTA()
+        
         return true
     }
 
