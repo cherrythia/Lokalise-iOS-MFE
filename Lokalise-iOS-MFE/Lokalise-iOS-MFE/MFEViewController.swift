@@ -21,7 +21,7 @@ open class MFEViewController: UIViewController {
         self.view.addSubview(rootView)
         self.navigationController?.title = "MFE Controller"
         
-        label.text = NSLocalizedString("ota_key", comment: "")
+        label.text = LocalizableStrings.otaKey.localized
         label.flex.markDirty()
         
         rootView.flex.direction(.column).define { flex in

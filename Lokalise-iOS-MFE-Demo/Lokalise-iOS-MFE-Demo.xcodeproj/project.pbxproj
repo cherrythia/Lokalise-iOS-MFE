@@ -19,6 +19,7 @@
 		3C23BB512AD62C0200E16A65 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 3C23BB502AD62C0200E16A65 /* RxCocoa */; };
 		3C23BB532AD62C0200E16A65 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3C23BB522AD62C0200E16A65 /* RxSwift */; };
 		3C23BB6B2AD6371400E16A65 /* Lokalise_iOS_MFE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C23BB6A2AD6371400E16A65 /* Lokalise_iOS_MFE.framework */; };
+		3C23BB762AD6E2F600E16A65 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C23BB752AD6E2F600E16A65 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		3C23BB662AD6331B00E16A65 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3C23BB672AD6331B00E16A65 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C23BB6A2AD6371400E16A65 /* Lokalise_iOS_MFE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Lokalise_iOS_MFE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C23BB752AD6E2F600E16A65 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		3C23BB0B2AD6290100E16A65 = {
 			isa = PBXGroup;
 			children = (
+				3C23BB752AD6E2F600E16A65 /* Localizable.strings */,
 				3C23BB162AD6290200E16A65 /* Lokalise-iOS-MFE-Demo */,
 				3C23BB2D2AD6290400E16A65 /* Lokalise-iOS-MFE-DemoTests */,
 				3C23BB372AD6290400E16A65 /* Lokalise-iOS-MFE-DemoUITests */,
@@ -262,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C23BB242AD6290400E16A65 /* LaunchScreen.storyboard in Resources */,
+				3C23BB762AD6E2F600E16A65 /* Localizable.strings in Resources */,
 				3C23BB212AD6290400E16A65 /* Assets.xcassets in Resources */,
 				3C23BB1F2AD6290200E16A65 /* Main.storyboard in Resources */,
 			);

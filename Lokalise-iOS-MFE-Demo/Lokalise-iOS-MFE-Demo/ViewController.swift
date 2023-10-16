@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         self.view.addSubview(rootView)
         self.view.backgroundColor = .white
-        label.text = "This is a demo to make sure the MFE is working. Please run the other repo Lokalise-iOS-Demo."
+        label.text = NSLocalizedString("page_1", comment: "")
         label.numberOfLines = 0
         
         

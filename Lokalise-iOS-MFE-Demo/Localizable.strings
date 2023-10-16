@@ -1,0 +1,8 @@
+/* 
+  Localizable.strings
+  Lokalise-iOS-MFE-Demo
+
+  Created by Chia Wei Zheng Terry on 11/10/23.
+  
+*/
+"page_1" = "This is a demo to make sure the MFE is working. Please run the other repo Lokalise-iOS-Demo.";
